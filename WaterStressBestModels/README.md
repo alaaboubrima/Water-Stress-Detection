@@ -1,7 +1,7 @@
 # Water Stress Best Model
 
 ## Overview
-This folder contains the best-performing models for detecting water stress in plants. The primary model is based on the Inception V3 architecture with custom adjustments. Additionally, a YOLO model is used for detecting plants in images and videos.
+This folder contains the best-performing models for detecting water stress in SugarBeet plant. The primary model is based on the Inception V3 architecture with custom adjustments (accuracy of 99.7% on a never seen dataset). Additionally, a YOLO model is used for detecting plants in images and videos.
 
 ## Models
 - **InceptionV3_Model**: Contains the trained Inception V3 model.
