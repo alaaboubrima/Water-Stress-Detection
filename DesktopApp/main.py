@@ -11,10 +11,10 @@ import time
 
 class_names = ['de-hydrated', 'hydrated']
 
-pred_model = tf.keras.models.load_model("WaterStressBestModels\inception.h5")
+pred_model = tf.keras.models.load_model("../WaterStressBestModels/inception.h5")
 
 # Load a model
-model = YOLO("WaterStressBestModels\best-yolo.pt")  # load the custom model
+model = YOLO("../WaterStressBestModels/best-yolo.pt")  # load the custom model
 # model = YOLO("yolov8n.pt")  # load an official model
 
 def load_image(image_file):
