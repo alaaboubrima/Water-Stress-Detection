@@ -2,7 +2,7 @@
 
 ## Overview
 This project aims to detect water stress in plants using deep learning techniques. The project consists of a desktop application, a mobile application, and a set of models including an Inception V3 model with custom adjustments and a YOLO model for plant detection.
-The full Report can be found here [Project Documentation PDF](./Memoire.pdf)
+The full Report can be found here [Thesis](./Memoire.pdf)
 ## Project Structure
 - **DesktopApp**: Contains the desktop application code and resources.
 - **MobileApp**: Contains the mobile application code and resources (code is private).
